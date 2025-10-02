@@ -19,6 +19,7 @@
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
       "edgeToEdgeEnabled": true,
+      "package": "com.sjchmiela.sdk54",
       "predictiveBackGestureEnabled": false
     },
     "web": {
