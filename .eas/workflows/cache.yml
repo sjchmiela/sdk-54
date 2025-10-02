@@ -1,0 +1,11 @@
+jobs:
+  android:
+    type: build
+    env:
+      EAS_USE_CACHE: "1"
+    params:
+      platform: android
+      profile: simulator
+    steps:
+      - run: sudo apt-get update -y && sudo apt-get install -y ccache
+      - uses: eas/build
